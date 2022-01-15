@@ -67,7 +67,7 @@ h4:hover{
 padding-left: 10px;
 }
 .main-camera{
-    width: 440px;
+    width: auto;
     height: 414px;
     top: 210px;
 }
@@ -141,4 +141,26 @@ div>h2{
 .social{
     font-size: 28px;
     padding-left: 24px;
+}
+
+
+/* media Queries  */
+
+/* mobile devices  */
+
+
+@media only screen and (max-width: 688px){
+    .popular-collection{  
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
 }
