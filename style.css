@@ -1,6 +1,44 @@
 /* font style  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap');
 
+/* body style or common styles or utilites */
 body{
-    font-family: font-family: 'Poppins', sans-serif;;
+    font-family:'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: aqua;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 150px;
+    width: 1440px;
+    padding: 120px;
+}
+.start h1{
+    color: blue;
+    font-size: 52px;
+}
+.main-camera{
+    width: 440px;
+    height: 414px;
+    top: 210px;
+}
+
+
+/* footer  */
+.footer {
+    height: 240px;
+    background-color: #0A0826;
+    color:#D9DBE1;
+    text-align: center;
+  }
+.footer-brand{
+    color: #FFFFFF;
+    font-size: 24px;
+    margi
 }
