@@ -7,21 +7,64 @@ body{
     font-family:'Poppins', sans-serif;
     background-color: #FFFFFF;
 }
+
+h5{
+    font-size: 30px;
+    padding-left: 120px;
+    margin-bottom: 0;
+}
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
+
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 1280px;
-    padding: 120px;
+    /* padding-bottom: 120px; */
 }
 .start h1{
     font-size: 52px;
+}
+
+
+.anchor-button{
+    text-decoration: none;
+    display: inline-block;
+    background: #E02C6D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 70;
+    margin-top: 20px;
+}
+
+
+
+.circle {
+    height: 45px;
+    margin: 55px auto;
+    width: 400px;
+    border-radius: 55%;
+    background: #E02C6D;
+    transition: all 5s;
+ }
+h4:hover{
+    transform: scale(0,5);
+}
+  
+
+
+.fa-arrow-right{
+padding-left: 10px;
 }
 .main-camera{
     width: 440px;
@@ -65,9 +108,16 @@ div>h2{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
+.filled{
+    color: #FB8200;
+
+}
+
 .see-more, .see-more>a{
     text-decoration: none;
     text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: rgba(224, 44, 109, 0.87);
 }
 
